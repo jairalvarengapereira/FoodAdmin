@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/09/09 06:40:06.000.451,=C:\Users\jaira\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/10/31 11:15:27.000.630,=C:\Users\jaira\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/10/31 11:15:51.000.718,=C:\Users\jaira\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/02 12:51:44.000.003,=C:\Users\jaira\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/11/26 11:46:54.000.425,=C:\Users\jaira\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/03/11 06:57:27.000.419,=C:\Users\Jair\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/03/13 20:03:58.447,=C:\Users\Jair\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/03/13 20:05:18.023,D:\Projetos\Delphi\99Coders\Cardapio_Digital\Admin\Fontes_Proprias\UnitLogin.fmx=C:\Users\Jair\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2024/03/13 20:05:18.023,D:\Projetos\Delphi\99Coders\Cardapio_Digital\Admin\Fontes_Proprias\UnitLogin.pas=C:\Users\Jair\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2024/03/13 20:05:59.923,D:\Projetos\Delphi\99Coders\Cardapio_Digital\Admin\Fontes_Proprias\FoodAdmin.dproj=C:\Users\Jair\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>  <ActiveMobileDevice>   <NoProfile Android="RQCT700DW3M" Android64="RQCT700DW3M"/>
+  </ActiveMobileDevice>
+</BorlandProject>
