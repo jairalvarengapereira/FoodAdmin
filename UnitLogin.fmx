@@ -5,6 +5,7 @@ object FrmLogin: TFrmLogin
   ClientHeight = 536
   ClientWidth = 356
   Fill.Kind = Solid
+  Position = MainFormCenter
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
@@ -34,6 +35,8 @@ object FrmLogin: TFrmLogin
       Size.PlatformDefault = False
       StyleLookup = ''
       TabOrder = 0
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
       object Layout2: TLayout
         Align = Center
         Size.Width = 262.000000000000000000
@@ -438,6 +441,8 @@ object FrmLogin: TFrmLogin
       Size.PlatformDefault = False
       StyleLookup = ''
       TabOrder = 0
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
       object Label6: TLabel
         Align = Bottom
         StyledSettings = [Family, Style]
