@@ -28,8 +28,11 @@ type
     Image6: TImage;
     rectIndicador: TRectangle;
     procedure imgAba1Click(Sender: TObject);
+    procedure FormResize(Sender: TObject);
+    procedure FormShow(Sender: TObject);
   private
     procedure MudarAba(Img: Timage);
+    procedure SetupAbas;
     { Private declarations }
   public
     { Public declarations }
@@ -49,11 +52,36 @@ begin
   imgAba3.opacity := 0.5;
   Img.Opacity := 1;
 
-  TabControl.GotovisibleTab(Img.Tag);
-
   TAnimator.AnimateFloat(rectIndicador,'Position.x', img.position.x, 0.2,
                          TAnimationType.InOut, TInterpolationType.Circular);
 
+  TabControl.GotovisibleTab(Img.Tag);
+end;
+
+procedure TFrmPrincipal.SetupAbas;
+begin
+  rectIndicador.Width := imgAba1.Width;
+
+  if TabControl.TabIndex = 0 then
+    rectIndicador.Position.X := imgAba1.Position.X
+  else
+  if TabControl.TabIndex = 1 then
+    rectIndicador.Position.X := imgAba2.Position.X
+  else
+    rectIndicador.Position.X := imgAba3.Position.X;
+
+
+end;
+
+procedure TFrmPrincipal.FormResize(Sender: TObject);
+begin
+  SetupAbas;
+end;
+
+procedure TFrmPrincipal.FormShow(Sender: TObject);
+begin
+  SetupAbas;
+  MudarAba(imgAba1);
 end;
 
 procedure TFrmPrincipal.imgAba1Click(Sender: TObject);

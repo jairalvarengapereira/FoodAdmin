@@ -9,6 +9,8 @@ object FrmPrincipal: TFrmPrincipal
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
+  OnResize = FormResize
+  OnShow = FormShow
   DesignerMasterStyle = 0
   object rectAbas: TRectangle
     Align = Bottom
@@ -335,6 +337,8 @@ object FrmPrincipal: TFrmPrincipal
       StyleLookup = ''
       TabOrder = 0
       Text = 'TabItem1'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
       object Rectangle1: TRectangle
         Align = Top
         Fill.Kind = None
@@ -636,6 +640,8 @@ object FrmPrincipal: TFrmPrincipal
       StyleLookup = ''
       TabOrder = 0
       Text = 'TabItem2'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
       object Rectangle2: TRectangle
         Align = Top
         Fill.Kind = None
@@ -937,6 +943,8 @@ object FrmPrincipal: TFrmPrincipal
       StyleLookup = ''
       TabOrder = 0
       Text = 'TabItem3'
+      ExplicitSize.cx = 8.000000000000000000
+      ExplicitSize.cy = 8.000000000000000000
       object Rectangle4: TRectangle
         Align = Top
         Fill.Kind = None
